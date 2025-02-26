@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+/*nav sec*/
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex : 1 1 100%;
+    background-color: #1f2937;
+    padding: 15px 100px;
+    gap: 15px;
+    box-sizing: border-box;
+    height: 30px;
+}
+.hlone{
+    margin-left: auto;
+}
+a{
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+.headlogo{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;/*dose not find right font*/
+}
+/*head sec*/
+.baneer{
+    display: flex;
+    flex-direction: row;
+    padding: 0 100px;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    justify-content: flex-start;
+}
+.bancont{
+    display: flex;
+    /*flex-flow: row wrap;*/
+    flex-direction: column;
+    height: 200px;
+    width: 50%;
+    padding: 100px 0;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+.bheading{
+    font-size: 45px;
+    font-weight: 900;
+}
+.bcon{
+    font-size: 19px;
+}
+.signup{
+    background-color: #3882f6;
+    border: none;
+    height: 30px;
+    width: 90px;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.headimg{
+    display: flex;
+    height: 200px;
+    width: 50%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    background-color: #4f4f50c7;
+    flex: 1 1 auto;
+}
+/*card sec*/
+.cardbox{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 100px;
+    align-items: center;
+    justify-content: center;
+    gap : 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.chead{
+    color: #1f2937;
+    font-size: 30px;
+    font-weight: 900;
+}
+.cholder{
+    display: flex;
+    flex-direction: row;
+    gap : 40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height:190px;
+    width: 150px;
+    box-sizing: border-box;
+}
+.cimg{
+    display: flex;
+    height: 140px;
+    width: 140px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #5f5e5e;
+}
+.ctext{
+    text-align: center;
+    color: #3d3d3d;
+}
+/*quote sec*/
+.quote{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    background-color: #e5e7eb;
+    box-sizing: border-box;
+    padding: 100px 0;
+}
+.qtext{
+    color: #1F2937;
+    font-size: 25px;
+    flex: 0 1 100%;
+    height: 200px;
+    width: 500px;
+    margin: 0 auto;
+}
+.sig{
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: end;
+    flex: 0 1 100%;
+    height: 30px;
+    width: 500px;
+    margin: 0 auto;
+}
+/*signbox sec*/
+.signbox{
+    display: flex;
+    min-width: 700px;
+    flex: 1 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.stext{
+    display: flex;
+    flex-direction: column;
+    margin: auto 70px;
+}
+.sheading{
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+.scon{
+    color: white;
+    font-size: 10px;
+}
+.ssignup{
+    height: 30px;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: #3882f6;
+    margin-right: 50px;
+    margin-left: 00px;
+}
+.signcon{
+    display: flex;
+    height: 100px;
+    min-width: 700px;
+    margin: 100px 0;
+    border-radius: 10px;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 auto;
+}
+/*footer*/
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
